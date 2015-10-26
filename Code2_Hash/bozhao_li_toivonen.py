@@ -6,11 +6,11 @@ __author__ = 'Joshua'
 
 
 def opendata(data):
-	transfor_data = []
+	transform_data = []
 	input_data = data.readlines()
 	for data_line in input_data:
-		transfor_data.append(data_line.strip().split(','))
-	return transfor_data
+		transform_data.append(data_line.strip().split(','))
+	return transform_data
 
 
 def select(data):
@@ -79,7 +79,7 @@ if __name__ == '__main__':
 	items = 1
 	while 1:
 		select_data = select(raw_data)
-		frequent_items_list, all_items, output1 = count_items_1(raw_data, support)  ## support
+		frequent_items_list, all_items, output1 = count_items_1(raw_data, support)  # support
 		candidate_items, not_frequent_pairs = count_items_2(frequent_items_list, all_items, 2)
 		not_candidate_items_pairs,all_pairs11 = frequent_items_2(candidate_items, select_data, len(raw_data), support)
 		true_freq = find_allset(candidate_items, raw_data, support)

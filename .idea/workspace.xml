@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b74718e-8a49-4563-9793-4d809c0f34bb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code2_Hash/bozhao_li_pcy.py" afterPath="$PROJECT_DIR$/Code2_Hash/bozhao_li_pcy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Joshua.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code2_Hash/bozhao_li_toivonen.py" afterPath="$PROJECT_DIR$/Code2_Hash/bozhao_li_toivonen.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DataMining.iws" />
@@ -116,11 +117,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bozhao_li_pcy.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bozhao_li_pcy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code2_Hash/bozhao_li_pcy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6573817">
+            <state vertical-scroll-proportion="0.0">
               <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bozhao_li_toivonen.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Code2_Hash/bozhao_li_toivonen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.05292479">
+              <caret line="81" column="89" selection-start-line="81" selection-start-column="89" selection-end-line="81" selection-end-column="89" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -142,6 +155,7 @@
         <option value="$PROJECT_DIR$/Code1_MapReduce/bozhao_li_items.py" />
         <option value="$PROJECT_DIR$/Code1_MapReduce/bozhao_li_squared_one.py" />
         <option value="$PROJECT_DIR$/Code2_Hash/bozhao_li_pcy.py" />
+        <option value="$PROJECT_DIR$/Code2_Hash/bozhao_li_toivonen.py" />
       </list>
     </option>
   </component>
@@ -447,7 +461,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445900394368</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="t">
+      <created>1445900595842</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1445900595842</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -625,8 +645,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code2_Hash/bozhao_li_pcy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6573817">
+        <state vertical-scroll-proportion="0.0">
           <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code2_Hash/bozhao_li_toivonen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.05292479">
+          <caret line="81" column="89" selection-start-line="81" selection-start-column="89" selection-end-line="81" selection-end-column="89" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
