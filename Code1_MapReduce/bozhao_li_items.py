@@ -3,7 +3,7 @@ import sys
 __author__ = 'Joshua'
 
 """
-Word Count Example in the Simple Python MapReduce Framework1
+Word Count Example in the Simple Python MapReduce Framework
 """
 
 mr = MapReduce.MapReduce()
