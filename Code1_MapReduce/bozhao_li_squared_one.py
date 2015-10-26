@@ -41,7 +41,7 @@ def reducer(key, list_of_values):
         n = temp_list.index(temp_list[items], m + 1)
         output += list_of_values[m][1] * list_of_values[n][1]
 
-    output = output / 2
+    output /= 2
     mr.emit((key, output))
 
 if __name__ == '__main__':
