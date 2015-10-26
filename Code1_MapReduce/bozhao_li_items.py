@@ -15,9 +15,7 @@ def mapper(record):
     if len(record) > 1:  # find 2-item sets
         for i in range(len(record)):
             for j in range(i + 1, len(record)):
-                items = []
-                items.append(record[i])
-                items.append(record[j])
+                items = [record[i], record[j]]
                 mr.emit_intermediate(tuple(sorted(items)), 1)
     else:
         pass
