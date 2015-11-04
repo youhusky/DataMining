@@ -1,11 +1,26 @@
 import heapq
-
+from math import sqrt
 __author__ = 'Joshua'
-b = []
-a = [1,2,3,4,5,6,7,7,8,8,9,1,2]
-for each in a:
-	heapq.heappush(b, each)
-sort = []
-while b:
-	sort.append(heapq.heappop(b))
-print sort
+
+def main():
+	raw_data = get_data()
+	print raw_data
+
+
+
+def get_data():
+	with open('iris.dat') as filename:
+		opendata = filename.readlines()
+		read_data = []
+		for eachline in opendata:
+			read_data.append(eachline.strip().split(','))
+	return read_data
+
+
+def euclidean_distance(vector1, vector2):
+	tsum = sum([pow((vector1[i] - vector2[i]), 2) for i in range(len(vector1))])
+	ssum = sqrt(tsum)
+	return ssum
+
+if __name__ == '__main__':
+	main()
