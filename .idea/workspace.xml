@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b74718e-8a49-4563-9793-4d809c0f34bb" name="Default" comment="">
+    <list default="true" id="0b74718e-8a49-4563-9793-4d809c0f34bb" name="Default" comment="Grader test">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DataMining.iws" />
@@ -582,7 +582,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447108336398</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Grader test">
+      <created>1447108354790</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1447108354790</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
