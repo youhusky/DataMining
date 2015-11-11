@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b74718e-8a49-4563-9793-4d809c0f34bb" name="Default" comment="Grader test">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code4_Hierarchical Clustering/bozhao_li_hierarchical.py" afterPath="$PROJECT_DIR$/Code4_Hierarchical Clustering/bozhao_li_hierarchical.py" />
     </list>
     <ignored path="DataMining.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,40 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bozhao_li_hierarchical.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/bozhao_li_hierarchical.py">
+      <file leaf-file-name="cluster_output.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/cluster_output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5483871">
-              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/test2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="95" column="58" selection-start-line="87" selection-start-column="30" selection-end-line="95" selection-end-column="58" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-                <element signature="e#187#395#0" expanded="false" />
-                <element signature="e#415#654#0" expanded="false" />
-                <element signature="e#872#1012#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="112" column="10" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-                <element signature="e#415#654#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -71,32 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="heapq.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/heapq.py">
+      <file leaf-file-name="bozhao_li_hierarchical.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/bozhao_li_hierarchical.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="210" column="4" selection-start-line="210" selection-start-column="4" selection-end-line="210" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cluster_output.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/cluster_output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iris.dat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/iris.dat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="149" column="30" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
-              <folding />
+            <state vertical-scroll-proportion="0.49100256">
+              <caret line="171" column="35" selection-start-line="171" selection-start-column="35" selection-end-line="171" selection-end-column="35" />
+              <folding>
+                <element signature="e#119#415#0" expanded="false" />
+                <element signature="e#439#616#0" expanded="false" />
+                <element signature="e#650#1017#0" expanded="false" />
+                <element signature="e#1037#1514#0" expanded="false" />
+                <element signature="e#1560#1656#0" expanded="false" />
+                <element signature="e#1713#5167#0" expanded="false" />
+                <element signature="e#1758#3415#0" expanded="false" />
+                <element signature="e#5209#5615#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,16 +88,16 @@
         <option value="$PROJECT_DIR$/Code3_collabFilter/bozhao_li_collabFilter.py" />
         <option value="$PROJECT_DIR$/Code4_Hierarchical Clustering/heapq.py" />
         <option value="$PROJECT_DIR$/Code4_Hierarchical Clustering/iris.dat" />
-        <option value="$PROJECT_DIR$/Code4_Hierarchical Clustering/bozhao_li_hierarchical.py" />
         <option value="$PROJECT_DIR$/Code4_Hierarchical Clustering/test2.py" />
         <option value="$PROJECT_DIR$/Code4_Hierarchical Clustering/test.py" />
+        <option value="$PROJECT_DIR$/Code4_Hierarchical Clustering/bozhao_li_hierarchical.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1366" />
-    <option name="height" value="665" />
+    <option name="height" value="658" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -181,8 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,22 +175,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataMining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataMining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Code3_collabFilter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -597,21 +545,21 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="665" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1366" height="658" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752612" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4624782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32582322" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37742504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2627866" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2478185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4074074" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -642,11 +590,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/Code4_Hierarchical Clustering/bozhao_li_hierarchical.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/Code4_Hierarchical Clustering/test2.py</url>
           <line>74</line>
           <option name="timeStamp" value="54" />
@@ -674,71 +617,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="120" />
+      <option name="time" value="126" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-            <element signature="e#415#654#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Code2_Hash/bozhao_li_multihash.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Code2_Hash/bozhao_li_pcy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Code2_Hash/bozhao_li_toivonen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="89" selection-start-line="81" selection-start-column="89" selection-end-line="81" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Code3_collabFilter/bozhao_li_collabFilter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Code1_MapReduce/bozhao_li_squared_two_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Code1_MapReduce/bozhao_li_squared_two_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Code1_MapReduce/bozhao_li_tf_df.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Code1_MapReduce/matrix.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -872,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code2_Hash/bozhao_li_multihash.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Code2_Hash/bozhao_li_pcy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -970,13 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code3_collabFilter/bozhao_li_collabFilter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/heapq.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -984,20 +853,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/heapq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="210" column="4" selection-start-line="210" selection-start-column="4" selection-end-line="210" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.06451613">
           <caret line="95" column="58" selection-start-line="87" selection-start-column="30" selection-end-line="95" selection-end-column="58" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="false" />
             <element signature="e#187#395#0" expanded="false" />
             <element signature="e#415#654#0" expanded="false" />
             <element signature="e#872#1012#0" expanded="false" />
@@ -1005,10 +866,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/cluster_output.txt">
+    <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/heapq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06451613">
+          <caret line="210" column="4" selection-start-line="210" selection-start-column="4" selection-end-line="210" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code3_collabFilter/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code3_collabFilter/ratings2.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code3_collabFilter/output_test_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code3_collabFilter/output_test_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code3_collabFilter/output_test_3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code3_collabFilter/output_test_4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3539326">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code3_collabFilter/ratings-dataset.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.046753246">
+          <caret line="278" column="31" selection-start-line="278" selection-start-column="12" selection-end-line="278" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code3_collabFilter/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43896103">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1016,19 +934,47 @@
     <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="112" column="10" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
+          <caret line="164" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
-            <element signature="e#415#654#0" expanded="false" />
+            <element signature="e#189#397#0" expanded="false" />
+            <element signature="e#417#656#0" expanded="false" />
+            <element signature="e#702#838#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code2_Hash/bozhao_li_multihash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/iris.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.277778">
+          <caret line="149" column="30" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/iris_dataset1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58064514">
+        <state vertical-scroll-proportion="0.5">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code3_collabFilter/bozhao_li_collabFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4090909">
+          <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,19 +986,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/iris.dat">
+    <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/cluster_output.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="149" column="30" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Code4_Hierarchical Clustering/bozhao_li_hierarchical.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5483871">
-          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.49100256">
+          <caret line="171" column="35" selection-start-line="171" selection-start-column="35" selection-end-line="171" selection-end-column="35" />
+          <folding>
+            <element signature="e#119#415#0" expanded="false" />
+            <element signature="e#439#616#0" expanded="false" />
+            <element signature="e#650#1017#0" expanded="false" />
+            <element signature="e#1037#1514#0" expanded="false" />
+            <element signature="e#1560#1656#0" expanded="false" />
+            <element signature="e#1713#5167#0" expanded="false" />
+            <element signature="e#1758#3415#0" expanded="false" />
+            <element signature="e#5209#5615#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
