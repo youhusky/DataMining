@@ -2,14 +2,14 @@ import heapq
 from math import sqrt
 from itertools import combinations
 import sys
+
 __author__ = 'Joshua'
 
 '''
 add dimension = len(raw_data[0])-1
 in order to solve the problem that each of n dimensions
-only add this five lines ;origin is 176 latest is 182
-'''
 
+'''
 def main():
 	file_name = sys.argv[1]
 	number = sys.argv[2]
@@ -119,15 +119,23 @@ def get_items_distance(raw_data, raw_value, number):
 	merge_dict = {}
 	for object in raw_value:
 		merge_dict[object[0]] = object[1]  # dict save (2,3):[1.1,2.2,3.3,4.4]
+	'''
+	'''
+
 	heap_list = []
 	for each_heap in data:
 		heapq.heappush(heap_list, each_heap)
 	distance, merged_items = heapq.heappop(heap_list)
+
 	while len(merge_dict) > number:
 
+		'''
+		tuple union: three part int + (), ()+int and ()()
+		'''
 		if type(merged_items[0]) == tuple and type(merged_items[1]) == tuple:
 			merge_dict[tuple(sorted(set(merged_items[0]).union(set(merged_items[1]))))] = \
 				get_centroid(merged_items[0], merged_items[1], item_list)
+
 		elif type(merged_items[0]) == tuple or type(merged_items[1]) == tuple:
 			if type(merged_items[0]) == tuple and type(merged_items[1]) != tuple:
 				temp = [merged_items[1]]
@@ -135,6 +143,7 @@ def get_items_distance(raw_data, raw_value, number):
 					temp.append(num)
 				merge_dict[tuple(temp)] = \
 					get_centroid(merged_items[0], merged_items[1], item_list)
+
 			elif type(merged_items[1]) == tuple and type(merged_items[0]) != tuple:
 				temp = [merged_items[0]]
 				for num in merged_items[1]:
@@ -144,8 +153,10 @@ def get_items_distance(raw_data, raw_value, number):
 		else:
 			merge_dict[tuple(sorted(merged_items))] = \
 				get_centroid(merged_items[0], merged_items[1], item_list)
+
 		merge_dict.pop(merged_items[0])
 		merge_dict.pop(merged_items[1])
+
 		heap_list = []
 		for object in merge_dict:
 			for j in merge_dict:
@@ -162,13 +173,13 @@ def get_items_distance(raw_data, raw_value, number):
 		else:
 			temp.append(sorted(list(object)))
 	return temp
+	#return [sorted(list(object)) for object in merge_dict]
 
 
 def evaluate(result, standard_value):
 	def get_list(value):
 		temp = [list(combinations(i, 2)) for i in value]
 		return [each_classvalue for each_class in range(len(temp)) for each_classvalue in temp[each_class]]
-
 	test = get_list(result)
 	standard = get_list(standard_value)
 	tp = set(standard).intersection(set(test))
