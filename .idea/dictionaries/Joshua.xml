@@ -1,10 +1,15 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Joshua">
     <words>
+      <w>betweenness</w>
       <w>eachline</w>
       <w>eachvalue</w>
+      <w>fathervalue</w>
       <w>klist</w>
       <w>morepairs</w>
+      <w>numofparent</w>
+      <w>parentnode</w>
+      <w>rootlist</w>
       <w>transfordata</w>
     </words>
   </dictionary>
