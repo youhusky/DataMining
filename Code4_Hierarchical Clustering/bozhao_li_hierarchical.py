@@ -4,11 +4,6 @@ from itertools import combinations
 import sys
 __author__ = 'Joshua'
 
-'''
-add dimension = len(raw_data[0])-1
-in order to solve the problem that each of n dimensions
-only add this five lines ;origin is 176 latest is 182
-'''
 
 def main():
 	file_name = sys.argv[1]
