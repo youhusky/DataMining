@@ -27,9 +27,7 @@ def count_items_1(data, support):
 		if frequent_items_list[each] < support:
 			del (frequent_items_list[each])
 	frequent_items = sorted(list(frequent_items_list))
-	output_items = []
-	for i in range(len(frequent_items)):
-		output_items.append([frequent_items[i]])
+	output_items = [each for each in frequent_items]
 	return frequent_items, all_items, output_items
 
 
@@ -73,8 +71,13 @@ def find_allset(candidate, raw_data, support):
 
 
 if __name__ == '__main__':
-	inputdata = open(sys.argv[1])
-	support = int(sys.argv[2])
+
+	# inputdata = open(sys.argv[1])
+	# support = int(sys.argv[2])
+
+	inputdata = open('input1.txt')
+	support = 20
+
 	raw_data = opendata(inputdata)
 	items = 1
 	while 1:
@@ -88,9 +91,9 @@ if __name__ == '__main__':
 		if (len(all_pairs11)-len(true_freq)) != len(not_candidate_items_pairs):
 			items += 1
 		else:
-			print items, '\n', '0.4'
+			print (items, '\n', '0.4')
 			output = []
 			for each in range(len(true_freq)):
 				output.append(list(true_freq[each]))
-			print output1, '\n\n', output, len(output)
+			print (output1, '\n\n', output, len(output))
 			break

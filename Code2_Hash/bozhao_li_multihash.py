@@ -20,14 +20,12 @@ def count_items_1(data, support):
 	for each in frequent_items.keys():
 		if frequent_items[each] < support:
 			del (frequent_items[each])
-	sorted_items = sorted(list(frequent_items))
-	print sorted_items
-	return sorted_items
+	print (sorted(list(frequent_items)))
+	return sorted(list(frequent_items))
 
 
 def find_pairs(data, num):
-	candidate_items = list(combinations(data, num))
-	return candidate_items
+	return list(combinations(data, num))
 
 
 def count_morepairs(data, raw_data, num):
@@ -118,14 +116,22 @@ def frequent_items_2(data, raw_data, num_buckets, support):
 	else:
 		output_dict_1, bitmap_1 = hash_table1(temp_list, num_buckets)
 		output_dict_2, bitmap_2 = hash_table2(temp_list, num_buckets)
-		print '\n', output_dict_1, '\n',output_dict_2, '\n', frequent_pairs
+		print ('\n', output_dict_1, '\n',output_dict_2, '\n', frequent_pairs)
 		return frequent_pairs
 
 
 if __name__ == '__main__':
-	inputdata = open(sys.argv[1])
-	support = int(sys.argv[2])
-	buckets = int(sys.argv[3])
+
+	# terminal
+
+	# inputdata = open(sys.argv[1])
+	# support = int(sys.argv[2])
+	# buckets = int(sys.argv[3])
+
+	inputdata = open('input.txt')
+	support = 4
+	buckets = 5
+
 	raw_data = opendata(inputdata)
 	frequent_items = count_items_1(raw_data, support)  #
 	candidate_items = find_pairs(frequent_items, 2)  ## items 2

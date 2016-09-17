@@ -3,7 +3,6 @@ import sys
 import networkx as nx
 import community
 
-
 __author__ = 'Joshua'
 
 
@@ -31,7 +30,7 @@ def step(graph):
 				self.number = []
 				self.children = []
 
-			def bfs(self,node):
+			def bfs(self, node):
 				queue = [self.parent]
 				while len(queue):
 					node = queue.pop(0)
@@ -62,28 +61,29 @@ def step(graph):
 						else:
 							temp_numofparent[neighbor] = temp_numofparent[temp[0]] + 1
 							temp.append(neighbor)
-							#NODE.bfs(neighbor)
+						# NODE.bfs(neighbor)
 						if temp_numofparent[neighbor] == temp_numofparent[
 							temp[0]] + 1:
 							number_of_fathervalue = number_of_parentnode[temp[0]]
-							number_of_parentnode[neighbor] = number_of_fathervalue + number_of_parentnode[neighbor]
+							number_of_parentnode[neighbor] = number_of_fathervalue + number_of_parentnode[
+								neighbor]
 							NODE.number = number_of_parentnode[neighbor]
 							parent_node[neighbor].append(temp[0])
-					rootlist.append(temp[0])      #root-leaf
+					rootlist.append(temp[0])  # root-leaf
 					del temp[0]
 				except:
 					pass
 			para = {}
 			for each_node in rootlist:
 				para[each_node] = 0
-			while len(rootlist)>0:
+			while len(rootlist) > 0:
 
-				#len(rootlist)
+				# len(rootlist)
 				try:
 					neighbor = rootlist.pop()
 				except:
 					pass
-				for next_node in parent_node[neighbor]:   # 1+ DAG
+				for next_node in parent_node[neighbor]:  # 1+ DAG
 					if (next_node, neighbor) in betweenness:
 						betweenness[(next_node, neighbor)] += \
 							number_of_parentnode[next_node] * \
@@ -109,18 +109,14 @@ def step(graph):
 			'''
 			betweenness[value] *= 0.5
 		return betweenness
+
 	temp = graph.copy()
 	origin_ncomp = nx.number_connected_components(graph)
 	ncomp = origin_ncomp
 	temp_dict = {}
 	class_dict = {}
 	while ncomp < len(graph.nodes()):
-
 		comp = own_betweenness(temp)
-		#print comp
-		#comp = 0
-		#comp = nx.edge_betweenness(temp, normalized=False)
-
 		max_bet = max(comp.values())
 		for k, v in comp.iteritems():
 			if float(v) == max_bet:
@@ -137,8 +133,6 @@ def step(graph):
 		temp_dict[community.modularity(child_dict, graph)] = child_dict
 		ncomp = nx.number_connected_components(temp)
 
-
-
 	max_modularity = max(temp_dict.keys())
 	result = temp_dict[max_modularity]
 	output = class_dict[max(class_dict.keys())]
@@ -151,9 +145,7 @@ def step(graph):
 def output_result(output):
 	result = []
 	for i in output:
-		temp = []
-		for j in i:
-			temp.append(int(j))
+		temp = [int(j) for j in i]
 		result.append(sorted(temp))
 	result = sorted(result)
 	for i in result:
@@ -163,8 +155,9 @@ def output_result(output):
 def draw_graph(graph, value):
 	nx.draw_networkx(graph, node_color=value)
 	plt.axis('off')
-	#plt.show()
+	# plt.show()
 	plt.savefig(sys.argv[2])
+
 
 if __name__ == '__main__':
 	main()

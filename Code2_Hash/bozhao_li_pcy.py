@@ -1,3 +1,4 @@
+from __future__ import print_function
 import sys
 from itertools import combinations
 
@@ -21,14 +22,12 @@ def count_items(data, support):
 	for each in frequent_items.keys():
 		if frequent_items[each] < support:
 			del (frequent_items[each])
-	sorted_items = sorted(list(frequent_items))
-	print sorted_items, '\n'
-	return sorted_items  # ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+	print(sorted(list(frequent_items)), '\n')
+	return sorted(list(frequent_items))  # ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 
 
 def find_pairs(data, num):
-	candidate_raw_pairs = list(combinations(data, num))
-	return candidate_raw_pairs  # [('a', 'b'), ('a', 'c')]
+	return list(combinations(data, num))  # [('a', 'b'), ('a', 'c')]
 
 
 def count_more_pairs(data, raw_data, num):
@@ -52,22 +51,16 @@ def hash_function(data, raw_data, buckets, support):
 			if set(each).issubset(set(raw_data[items])):
 				num += 1
 		temp_list.append([each, num])  # ('a', 'b'), 8
-	pairsoutput = []
-	for i in range(len(temp_list)):
-		if temp_list[i][1] >= support:
-			pairsoutput.append(temp_list[i][0])
+	pairsoutput = [temp_list[i][0] for i in range(len(temp_list)) if temp_list[i][1] >= support]
 
-	output = []
-	pairs_tmv = []
-	for each in range(len(temp_list)):
-		output.append([temp_list.index(temp_list[each]) % buckets, temp_list[each][1]])
-		pairs_tmv.append([temp_list.index(temp_list[each]) % buckets, temp_list[each][0]])  # [0, ('a', 'b')
+	output = [[temp_list.index(temp_list[each]) % buckets, temp_list[each][1]] for each in range(len(temp_list))]
+	pairs_tmv = [[temp_list.index(temp_list[each]) % buckets, temp_list[each][0]] for each in range(len(temp_list))]
+	# [0, ('a', 'b')
 	for j in range(len(output)):
 		for k in range(j + 1, len(output) - 1):
 			if output[j][0] == output[k][0]:
 				output[k][1] = output[j][1] + output[k][1]
 				del (output[j])
-	dict_output = dict(output)
 	output1 = []
 	for each in range(len(output)):
 		if output[each][1] >= support:
@@ -79,16 +72,20 @@ def hash_function(data, raw_data, buckets, support):
 			if pairs_tmv[i][0] == each:
 				pairs_output.append(list(pairs_tmv[i][1]))
 	if len(pairsoutput) == 0:
-		return pairs_output, dict_output
+		return pairs_output, dict(output)
 	else:
-		print dict_output, '\n', sorted(pairsoutput), '\n'
-		return pairs_output, dict_output
+		print(dict(output), '\n', sorted(pairsoutput), '\n')
+		return pairs_output, dict(output)
 
 
 if __name__ == '__main__':
-	inputdata = open(sys.argv[1])
-	support = int(sys.argv[2])
-	buckets = int(sys.argv[3])
+	# inputdata = open(sys.argv[1])
+	inputdata = open('input.txt')
+	# support = int(sys.argv[2])
+	support = 4
+	# buckets = int(sys.argv[3])
+	buckets = 20
+
 	raw_data = opendata(inputdata)
 	sorted_items = count_items(raw_data, support)
 	candidate_raw_pairs = find_pairs(sorted_items, 2)

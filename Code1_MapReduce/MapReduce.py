@@ -20,6 +20,7 @@ class MapReduce:
         self.result.append(value)
 
     def execute(self, data, mapper, reducer):
+        # type: (object, object, object) -> object
         # read each line from input file; call Map function on each record
         for line in data:
             record = json.loads(line)
