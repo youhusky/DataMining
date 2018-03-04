@@ -3,7 +3,7 @@
 > 
 Version: 1.0
 Author: Joshua Li  
-
+P.S. I saw some people fork my repo but just remind that some code may not be meet the requirment of latest task in the session INF 553  
 You can find more detail in each finder
 ## Assignment 1 Algorithms in MapReduce  
 ---
